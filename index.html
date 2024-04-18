@@ -1,8 +1,26 @@
-<html>
-  <head>
-    <title></title>
-  </head>
-  <body>
-    
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>TODO LIST</title>
+</head>
+<body>
+   <div class="app">
+    <div class="container">
+
+        <div id="wrapper">
+            <input type="text" placeholder="Things to do....">
+            <button id="add-btn">Add</button>
+        </div>
+
+        <div class="task">
+            <p class="pending-task">
+                You have <span class="count-value">0</span> task(s)
+                to complete
+            </p>
+        </div>
+    </div>
+    <p id="error">Input can not be empty</p>
+   </div>
+</body>
 </html>
